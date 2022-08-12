@@ -52,24 +52,24 @@ class ProfileWidget extends StatelessWidget {
         child: Column(
           //mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: const [
-             SizedBox(height: 40,),
+             SizedBox(height: 20),
             ClipRRect(
                       child: CircleAvatar(
                         backgroundColor: Colors.amber, 
-                        radius: 150, 
+                        radius: 100, 
                         foregroundImage: NetworkImage('https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/06/26/4162943265.jpg'),
                       ),
                       ),
-              SizedBox(height: 20,),
+              SizedBox(height: 20),
             Text(
-             'Monkey D. Luffy', 
+             'Ahmad Alif Fauzan', 
                 style: TextStyle(
              color: AppColors.primaryText, 
-             fontSize: 40,
+             fontSize: 25,
              ),
              ),
               Text(
-              'Luffy-gomugomu@gmail.com', 
+              'ahmadaliffauzan@gmail.com', 
             style: TextStyle(
               color: AppColors.primaryText, 
               fontSize: 16,
